@@ -8,4 +8,5 @@ const Home = () => (
     <h1 className="text-primary text-center">Example App</h1>
   </div>
 )
+
 export default Home
