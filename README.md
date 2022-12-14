@@ -49,7 +49,16 @@ If using VSC Extension "ESLint" you may need to add this to your settings.json:
     "typescriptreact"
 ]
 "eslint.packageManager": "yarn",
+```
 
+When using VSC Extension "Tailwind CSS IntelliSense" you may need to add this to your settings.json:
+
+```json
+"tailwindCSS.includeLanguages": {
+    "javascript": "javascriptreact",
+    "plaintext": "javascriptreact",
+    "plaintext": "typescriptreact",
+}
 ```
 
 ## License

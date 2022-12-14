@@ -33,4 +33,9 @@ module.exports = {
       typescript: {},
     },
   },
+  overrides: [
+    {
+      files: ['src/**/*.{js,jsx,ts,tsx,json}'],
+    },
+  ],
 }
