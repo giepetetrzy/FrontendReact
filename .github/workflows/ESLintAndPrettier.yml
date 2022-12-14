@@ -32,4 +32,4 @@ jobs:
       - name: Run ESLint
         run: 'yarn lint:fix'
       - name: Run Prettier
-        run: 'yarn prettiercheck'
+        run: 'yarn format'
