@@ -1,5 +1,6 @@
 {
   "name": "example-app",
+  "homepage": "https://jagtym.github.io/template-react-project/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
