@@ -1,6 +1,6 @@
 # Empty React Project Template
 
-This repository is an empty react project template made using vite, typescript, yarn, tailwindcss. Eslint and prettier are also configured. There is react-router-dom added with example configuration.
+This repository is an empty react project template made using vite, typescript, yarn. Eslint and prettier are also configured. The styling is set up to use TailwindCSS. There is react-router-dom added with example configuration.
 
 To use the repo clone it and cd into its directory, then run yarn to install packages:
 
@@ -18,4 +18,22 @@ Being in project directory you can also run command below to create directories 
 
 ```
 mkdir src/components src/data src/helpers src/hooks
+```
+
+Project can be checked with eslint using:
+
+```
+yarn lint
+```
+
+To automatically correct with eslint use:
+
+```
+yarn lint:fix
+```
+
+To run both eslint correct and prettier format use:
+
+```
+yarn format
 ```
