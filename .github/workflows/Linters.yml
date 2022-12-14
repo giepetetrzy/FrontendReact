@@ -1,0 +1,30 @@
+name: Lint
+
+on:
+  # Trigger the workflow on push or pull request,
+  # but only for the main branch
+  [pull_request]
+
+jobs:
+  run-linters:
+    name: Run linters
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v3
+    #install node and cache yarn
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: 'yarn install --immutable --immutable-cache --check-cache'
+
+      # ESLint and Prettier must be in `package.json`
+      - name: Run ESLint
+        run: 'yarn lint:fix'
+      - name: Run Prettier
+        run: 'yarn format'

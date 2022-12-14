@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx,json}'",
     "lint:fix": "eslint --fix 'src/**/*.{js,jsx, ts,tsx,json}'",
-    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "format:check": "prettier --check 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
   "dependencies": {
     "@types/react": "^18.0.26",
