@@ -37,3 +37,20 @@ To run both eslint correct and prettier format use:
 ```
 yarn format
 ```
+
+## Troubleshooting
+If using VSC Extension "ESLint" you may need to add this to your settings.json:
+
+```json
+"eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+]
+"eslint.packageManager": "yarn",
+
+```
+
+## License
+
