@@ -7,6 +7,9 @@ module.exports = {
         primary: '#5B4C8A',
         secondary: '#F2F2F2',
       },
+      animation: {
+        'spin-slow': 'spin 5s linear infinite',
+      },
     },
   },
   plugins: [],
