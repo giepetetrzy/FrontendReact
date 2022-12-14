@@ -2,6 +2,8 @@
 
 This repository is an empty react project template made using vite, typescript, yarn. Eslint and prettier are also configured. The styling is set up to use TailwindCSS. There is react-router-dom added with example configuration. React-icons were added as an icon pack.
 
+View on [Github Pages](https://jagtym.github.io/template-react-project/)
+
 ## Usage
 To use the repo clone it and cd into its directory, then run yarn to install packages:
 
