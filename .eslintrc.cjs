@@ -16,7 +16,12 @@ module.exports = {
   rules: {
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
     'react/react-in-jsx-scope': 'off',
-    'prettier/prettier': 'error',
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
     'import/extensions': [
       'error',
       'ignorePackages',
