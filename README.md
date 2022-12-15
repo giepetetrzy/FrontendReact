@@ -4,6 +4,31 @@ This repository is an empty react project template made using vite, typescript, 
 
 View on [Github Pages](https://jagtym.github.io/template-react-project/)
 
+## Features
+
+### React
+We use [React](https://reactjs.org/) 18 for this project
+- [Docs](https://reactjs.org/docs/getting-started.html)
+
+### Vite
+For frontend tooling, serving, building [Vite](https://vitejs.dev/) is used on top of React
+- [Guide](https://vitejs.dev/guide/)
+- [Config](https://vitejs.dev/config/)
+
+### Yarn
+
+### Typescript
+Instead of JS to stay away from errors [TS](https://www.typescriptlang.org/) is choosen
+- [Docs](https://www.typescriptlang.org/docs/)
+### TailwindCSS
+For enchancing visuals and easy styles creation we use Tailwind
+### ESLint & Pretier
+ESLint is used with airbnb and Prettier configuration for readable and consistent code
+### React-icons
+### Axios
+### Auto Deploy to GHPages
+
+
 ## Usage
 To use the repo clone it and cd into its directory, then run yarn to install packages:
 
