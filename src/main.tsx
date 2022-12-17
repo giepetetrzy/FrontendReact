@@ -10,7 +10,7 @@ import './assets/global.css'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <BrowserRouter basename="/template-react-project/">
+    <BrowserRouter basename="/FrontendReact/">
       <App />
     </BrowserRouter>
   </React.StrictMode>,
