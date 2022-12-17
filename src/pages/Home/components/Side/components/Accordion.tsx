@@ -9,61 +9,33 @@ const Accordion = () => {
     setActiveCategory(index === activeCategory ? null : index)
   }
 
+  const fakeItems = [
+    { name: 'Marmur dolce', img: 0 },
+    { name: 'Gwiazdolit kosmiczny', img: 1 },
+    { name: 'Żółtolit Watykański', img: 2 },
+    { name: 'Zielonium 2137', img: 3 },
+  ]
+
   const categories = [
     {
       name: 'Panele podłogowe',
-      items: [
-        'Dąb biszkoptowy',
-        'Dąb frappe 2',
-        'Marmur dolce',
-        'Terazzo marrone',
-        'Trawertyn tiramisu',
-        'Sosna zimowa',
-      ],
+      items: fakeItems,
     },
     {
       name: 'Płyty meblowe',
-      items: [
-        'Dąb biszkoptowy',
-        'Dąb frappe 2',
-        'Marmur dolce',
-        'Terazzo marrone',
-        'Trawertyn tiramisu',
-        'Sosna zimowa',
-      ],
+      items: fakeItems,
     },
     {
       name: 'Laminaty HPL',
-      items: [
-        'Dąb biszkoptowy',
-        'Dąb frappe 2',
-        'Marmur dolce',
-        'Terazzo marrone',
-        'Trawertyn tiramisu',
-        'Sosna zimowa',
-      ],
+      items: fakeItems,
     },
     {
       name: 'Walldesign',
-      items: [
-        'Dąb biszkoptowy',
-        'Dąb frappe 2',
-        'Marmur dolce',
-        'Terazzo marrone',
-        'Trawertyn tiramisu',
-        'Sosna zimowa',
-      ],
+      items: fakeItems,
     },
     {
       name: 'Dodatki',
-      items: [
-        'Dąb biszkoptowy',
-        'Dąb frappe 2',
-        'Marmur dolce',
-        'Terazzo marrone',
-        'Trawertyn tiramisu',
-        'Sosna zimowa',
-      ],
+      items: fakeItems,
     },
   ]
 

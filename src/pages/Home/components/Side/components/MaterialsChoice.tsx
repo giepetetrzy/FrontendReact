@@ -1,15 +1,15 @@
 import Item from './Item'
 
 interface Props {
-  items: Array<string>
+  items: any
 }
 const MaterialsChoice = (props: Props) => {
   const { items } = props
   return (
     <ul>
-      {items.map((item) => (
-        <li key={item}>
-          <Item name={item} />
+      {items.map((item: any) => (
+        <li key={item.name}>
+          <Item name={item.name} img={item.img} />
         </li>
       ))}
     </ul>
