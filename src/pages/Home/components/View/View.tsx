@@ -21,7 +21,7 @@ const View: React.FC = () => {
   }
 
   return (
-    <div className="flex-1 flex-col justify-end h-screen overflow-y-hidden">
+    <div className="flex-1 flex-col justify-end h-screen overflow-y-hidden text-primary">
       <div className="flex flex-1 flex-col justify-end h-full relative">
         <div className={className}>
           <div className="switchContainer absolute top-10 right-[8rem] w-20 h-10 z-10">

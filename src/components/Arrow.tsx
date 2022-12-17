@@ -11,7 +11,7 @@ const Arrow: React.FC<Props> = ({ onClick, flipped, horizontal }: Props) => (
   <div>
     <div
       role="presentation"
-      className="bg-rose-700 rounded-xl p-2 text-white text-xl  hover:cursor-pointer "
+      className="bg-accent rounded-xl p-2 text-secondary text-xl  hover:cursor-pointer "
       onClick={() => {
         onClick()
       }}
