@@ -1,4 +1,4 @@
-import asset from '../../../../../data/texture.jpg'
+import asset from '../../../../../assets/texture.jpg'
 
 interface Props {
   name: string
