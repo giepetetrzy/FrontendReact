@@ -6,24 +6,33 @@ import Switch from '../../../../components/Switch'
 
 const View: React.FC = () => {
   const [showVisualisationView, setShowVisualisationView] = useState<boolean>(true)
+  const [isExpanded, setIsExpanded] = useState<boolean>(false)
 
   const toggleVisualisationView = () => {
     setShowVisualisationView(!showVisualisationView)
   }
 
+  let className =
+    'visuals flex flex-1 justify-center align-middle relative h-full transition-[filter] duration-200 delay-75'
+  if (isExpanded) {
+    className += ' blur-sm'
+  } else {
+    className += ' '
+  }
+
   return (
-    <div className="flex-1 flex-col justify-end h-screen">
+    <div className="flex-1 flex-col justify-end h-screen overflow-y-hidden">
       <div className="flex flex-1 flex-col justify-end h-full relative">
-        <div className="visuals flex flex-1 justify-center align-middle relative h-full ">
+        <div className={className}>
+          <div className="switchContainer absolute top-10 right-[8rem] w-20 h-10 z-10">
+            <Switch onToggle={toggleVisualisationView} />
+          </div>
           <Board show={!showVisualisationView} />
           <Visualisation show={showVisualisationView} />
         </div>
         <div className="absolute bottom-0 w-full">
-          <Rollup />
+          <Rollup isVisualisation={showVisualisationView} setExpanded={setIsExpanded} />
         </div>
-      </div>
-      <div className="switchContainer absolute top-10 right-20 w-20 h-10">
-        <Switch onToggle={toggleVisualisationView} />
       </div>
     </div>
   )

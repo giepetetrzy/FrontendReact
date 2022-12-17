@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
 * {
   font-family: 'Inter';
   font-style: normal;
