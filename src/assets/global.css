@@ -9,6 +9,7 @@
 
 .hide-scroll-bar::-webkit-scrollbar {
   display: none;
+}
 
 * {
   font-family: 'Inter';
