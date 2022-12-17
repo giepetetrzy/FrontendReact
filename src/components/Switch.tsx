@@ -8,7 +8,7 @@ interface Props {
 }
 
 const Switch: React.FC<Props> = ({ onToggle }: Props) => {
-  const [toggle, setToggle] = useState(true)
+  const [toggle, setToggle] = useState(false)
   const modifyToggle = (newToggle: boolean) => {
     if (newToggle === toggle) {
       return
@@ -16,7 +16,7 @@ const Switch: React.FC<Props> = ({ onToggle }: Props) => {
     onToggle()
     setToggle(newToggle)
   }
-  const toggleClass = ' transform translate-x-5'
+  const toggleClass = ' transform translate-x-6'
   return (
     <div className="flex flex-row justify-start align-middle">
       <div
@@ -33,14 +33,14 @@ const Switch: React.FC<Props> = ({ onToggle }: Props) => {
 
         <div
           role="presentation"
-          className="md:w-14 md:h-7 w-12 h-6 flex items-center bg-gray-400 rounded-full p-1 cursor-pointer"
+          className=" w-14 h-7 flex items-center bg-gray-400 rounded-full p-1 cursor-pointer"
           onClick={() => {
             modifyToggle(!toggle)
           }}
         >
           {/* Switch */}
           <div
-            className={`bg-black md:w-6 md:h-6 h-5 w-5 rounded-full shadow-md transform duration-300 ease-in-out${
+            className={`bg-black h-6 w-6 rounded-full shadow-md transform duration-300 ease-in-out${
               toggle ? null : toggleClass
             }`}
           />
