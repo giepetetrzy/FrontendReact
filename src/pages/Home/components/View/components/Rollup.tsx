@@ -6,6 +6,7 @@ import MockTemplate from '../../../../../assets/images/mocktemplate.png'
 interface Props {
   // boards?: string[]
   // templates?: string[]
+  // eslint-disable-next-line no-unused-vars
   setExpanded: (e: boolean) => void
   isVisualisation: boolean
 }
