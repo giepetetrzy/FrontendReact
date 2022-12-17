@@ -11,24 +11,74 @@ const Accordion = () => {
 
   const categories = [
     {
-      name: 'Category 1',
-      items: ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5', 'Item 6'],
+      name: 'Panele podłogowe',
+      items: [
+        'Dąb biszkoptowy',
+        'Dąb frappe 2',
+        'Marmur dolce',
+        'Terazzo marrone',
+        'Trawertyn tiramisu',
+        'Sosna zimowa',
+      ],
     },
     {
-      name: 'Category 2',
-      items: ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5', 'Item 6'],
+      name: 'Płyty meblowe',
+      items: [
+        'Dąb biszkoptowy',
+        'Dąb frappe 2',
+        'Marmur dolce',
+        'Terazzo marrone',
+        'Trawertyn tiramisu',
+        'Sosna zimowa',
+      ],
     },
     {
-      name: 'Category 3',
-      items: ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5', 'Item 6'],
+      name: 'Laminaty HPL',
+      items: [
+        'Dąb biszkoptowy',
+        'Dąb frappe 2',
+        'Marmur dolce',
+        'Terazzo marrone',
+        'Trawertyn tiramisu',
+        'Sosna zimowa',
+      ],
+    },
+    {
+      name: 'Walldesign',
+      items: [
+        'Dąb biszkoptowy',
+        'Dąb frappe 2',
+        'Marmur dolce',
+        'Terazzo marrone',
+        'Trawertyn tiramisu',
+        'Sosna zimowa',
+      ],
+    },
+    {
+      name: 'Dodatki',
+      items: [
+        'Dąb biszkoptowy',
+        'Dąb frappe 2',
+        'Marmur dolce',
+        'Terazzo marrone',
+        'Trawertyn tiramisu',
+        'Sosna zimowa',
+      ],
     },
   ]
 
   return (
-    <div>
+    <div className="h-[500px]">
       {categories.map((category, index) => (
-        <div key={category.name}>
-          <Category name={category.name} clickAction={() => handleCategoryClick(index)} />
+        <div
+          className="bg-secondary rounded-2xl py-3 px-5 mb-3 flex flex-col flex-1"
+          key={category.name}
+        >
+          <Category
+            opened={index === activeCategory}
+            name={category.name}
+            clickAction={() => handleCategoryClick(index)}
+          />
           {index === activeCategory && <MaterialsChoice items={category.items} />}
         </div>
       ))}
