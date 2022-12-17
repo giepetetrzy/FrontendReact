@@ -25,7 +25,7 @@ const Rollup: React.FC<Props> = ({ setExpanded, isVisualisation }: Props) => {
     setExpand(!expand)
     setExpanded(!expand)
   }
-  let className = 'bg-gray-300 mx-auto w-11/12 rounded-t-xl h-auto transition-transform ease-in-out'
+  let className = ' mx-auto w-11/12 h-auto transition-transform ease-in-out'
   if (expand) {
     className += ' translate-y-0'
   } else {
@@ -35,10 +35,10 @@ const Rollup: React.FC<Props> = ({ setExpanded, isVisualisation }: Props) => {
   return (
     <div className={className}>
       <div className="relative flex flex-col justify-start ">
-        <div className="bg-rose-700 z-0 rounded-t-lg absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-9  ">
+        <div className="bg-accent z-0 rounded-t-lg pb-5  absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-9  ">
           <Arrow onClick={toggleExpand} flipped={expand} horizontal={false} />
         </div>
-        <div className="z-10 flex flex-col">
+        <div className="z-10 flex flex-col bg-panel rounded-t-xl ">
           <div
             className={`${
               isVisualisation ? 'hidden ' : ''

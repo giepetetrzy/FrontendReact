@@ -24,7 +24,9 @@ const Switch: React.FC<Props> = ({ onToggle }: Props) => {
         onClick={() => {
           modifyToggle(true)
         }}
-        className="flex flex-justify font-bold-4 px-4 my-auto text-purple-900 hover:cursor-pointer"
+        className={`${
+          toggle ? 'drop-shadow scale-110 ' : ''
+        }"flex flex-justify font-bold-4 px-4 my-auto text-accent hover:cursor-pointer"`}
       >
         <MdOutlineSpaceDashboard />
       </div>
@@ -33,14 +35,14 @@ const Switch: React.FC<Props> = ({ onToggle }: Props) => {
 
         <div
           role="presentation"
-          className=" w-14 h-7 flex items-center bg-gray-400 rounded-full p-1 cursor-pointer"
+          className=" w-14 h-7 flex items-center bg-panel rounded-full p-1 cursor-pointer"
           onClick={() => {
             modifyToggle(!toggle)
           }}
         >
           {/* Switch */}
           <div
-            className={`bg-black h-6 w-6 rounded-full shadow-md transform duration-300 ease-in-out${
+            className={`bg-accent h-6 w-6 rounded-full shadow-md transform duration-300 ease-in-out${
               toggle ? null : toggleClass
             }`}
           />
@@ -51,7 +53,9 @@ const Switch: React.FC<Props> = ({ onToggle }: Props) => {
         onClick={() => {
           modifyToggle(false)
         }}
-        className="flex flex-justify font-bold-4 px-4 my-auto text-purple-900 hover:cursor-pointer"
+        className={`${
+          !toggle ? 'drop-shadow scale-110 ' : ''
+        }"flex flex-justify font-bold-4 px-4 my-auto text-accent hover:cursor-pointer"`}
       >
         <FaCube />
       </div>
