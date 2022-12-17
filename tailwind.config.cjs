@@ -4,8 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#5B4C8A',
-        secondary: '#F2F2F2',
+        secondary: '#FCFCFC',
+        primary: '#0F0F0F',
+        panel: '#DEDEDE',
+        accent: '#C1403F',
       },
       animation: {
         'spin-slow': 'spin 5s linear infinite',

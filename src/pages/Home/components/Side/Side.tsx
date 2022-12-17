@@ -2,7 +2,7 @@ import Actions from './components/Actions'
 import Menu from './components/Menu'
 
 const Side = () => (
-  <div className="flex flex-col h-screen justify-between w-96 border-r">
+  <div className="flex flex-col w-[484px] h-screen w- py-[120px] px-[60px] bg-panel">
     <Menu />
     <Actions />
   </div>

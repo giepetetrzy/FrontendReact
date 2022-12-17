@@ -1,12 +1,23 @@
-import React from 'react'
+interface Props {
+  isTransparent: boolean
+  text: string
+}
+const Button = (props: Props) => {
+  const { text, isTransparent } = props
 
-const Button = () => (
-  <a
-    className="inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
-    href="/download"
-  >
-    Download
-  </a>
-)
+  let bgColor = 'bg-accent text-secondary'
+  if (isTransparent) {
+    bgColor = 'bg-panel text-accent'
+  }
+
+  return (
+    <a
+      className={`flex font-medium justify-center items-center border border-accent rounded-2xl accent px-5 py-[14px] text-sm w-44 h-14 ${bgColor}`}
+      href="/#"
+    >
+      {text}
+    </a>
+  )
+}
 
 export default Button
