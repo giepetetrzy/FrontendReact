@@ -25,7 +25,7 @@ const Switch: React.FC<Props> = ({ onToggle }: Props) => {
           modifyToggle(true)
         }}
         className={`${
-          toggle ? 'drop-shadow scale-110 ' : ''
+          toggle ? 'drop-shadow scale-125 ' : 'scale-110'
         }"flex flex-justify font-bold-4 px-4 my-auto text-accent hover:cursor-pointer"`}
       >
         <MdOutlineSpaceDashboard />
