@@ -1,8 +1,21 @@
 # JEST MIEJSCE App
 
 ## About
+Stworzyliśmy kompleksową strategię marketingową dla SWISS KRONO mającą na celu promocję JEST MIEJSCE zarówno pośród klientów indywidualnych jak i profesjonalnych projektantów oraz architektów. Wszystkie elementy strategii współgrają ze sobą niezależnie od źródła pochodzenia ruchu. Zaproponowaliśmy zarówno długoterminową strategię promocji JEST MIEJSCE jak i doraźne rozwiązania znacząco polepszające wizerunek firmy.
 
-View on [Github Pages](https://giepetetrzy.github.io/FrontendReact/)
+Postawiliśmy na rozszerzenie segmentu potencjalnych klientów, mocniejsze zaangażowanie przeglądających osób oraz ulepszenie komunikatu JEST MIEJSCE. Nasze działania opierają się o repozycjonowanie JEST MIEJSCE poprzez stworzenie marki indywidualnej, zachowując jednocześnie identyfikację z SWISS KRONO.
+
+Nasze profesjonalne doświadczenie - w zakresie tworzenia i projektowania stron internetowych, grafiki, SEO, UX oraz tworzenia treści - umożliwiło nam przedstawienie wartościowych wniosków technicznych dla firmy SWISS KRONO poprzez audyt ukierunkowany na wizerunek w sieci.
+
+Analiza istniejących rozwiązań technicznych zastosowanych w JEST MIEJSCE oraz dialog z przedstawicielami firmy na temat potrzeb klientów oraz przeprowadzonych badań doprowadził nas do unikalnej propozycji. Zaproponowaliśmy między innymi stworzenie aplikacji do projektowania material boardów integrując aktualnie wdrożone rozwiązania. Stworzyliśmy prototyp oraz nagraliśmy video demo opisujące zamysł.
+
+Zapraszamy do zapoznania się z naszą prezentacją w pliku JEST MIEJSCE.pdf, gdzie opisaliśmy poszczególne etapy naszego pomysłu! W razie potrzeby z chęcią odpowiemy na pytania. Nasza strategia jest dogłębnie przemyślana, lecz limit slajdów spowodował kompresję informacji do najważniejszych kluczowych punktów.
+## Demo
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=fAzWqv8Wep8" target="_blank">
+ <img src="http://img.youtube.com/vi/fAzWqv8Wep8/mqdefault.jpg" alt="Zobacz demo" width="240" height="180" border="10" />
+</a>
+
+View on [Github Pages](https://giepetetrzy.github.io/FrontendReact/
 
 ## Features
 
@@ -28,67 +41,6 @@ ESLint is used with airbnb and Prettier configuration for readable and consisten
 ### Axios
 ### Auto Deploy to GHPages
 
+## Licence
 
-## Usage
-To use the repo clone it and cd into its directory, then run yarn to install packages:
-
-```
-yarn
-```
-
-To run development server use:
-
-```
-yarn dev
-```
-
-Being in project directory you can also run command below to create directories I use to keep files organised:
-
-```
-mkdir src/components src/data src/helpers src/hooks
-```
-
-## Linting
-Project can be checked with eslint using:
-
-```
-yarn lint
-```
-
-To automatically correct with eslint use:
-
-```
-yarn lint:fix
-```
-
-To run both eslint correct and prettier format use:
-
-```
-yarn format
-```
-
-## Troubleshooting
-If using VSC Extension "ESLint" you may need to add this to your settings.json:
-
-```json
-"eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-]
-"eslint.packageManager": "yarn",
-```
-
-When using VSC Extension "Tailwind CSS IntelliSense" you may need to add this to your settings.json:
-
-```json
-"tailwindCSS.includeLanguages": {
-    "javascript": "javascriptreact",
-    "plaintext": "javascriptreact",
-    "plaintext": "typescriptreact",
-}
-```
-
-## License
-
+Commited under APACHE 2.0 Licence
