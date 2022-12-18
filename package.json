@@ -1,6 +1,6 @@
 {
   "name": "example-app",
-  "homepage": "https://jagtym.github.io/template-react-project/",
+  "homepage": "https://giepetetrzy.github.io/FrontendReact/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -21,7 +21,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.4.5",
-    "vite": "^4.0.0"
+    "vite": "^4.0.1"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.46.1",

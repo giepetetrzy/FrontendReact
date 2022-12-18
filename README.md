@@ -1,8 +1,8 @@
-# Empty React Project Template
+# JEST MIEJSCE App
 
-This repository is an empty react project template made using vite, typescript, yarn. Eslint and prettier are also configured. The styling is set up to use TailwindCSS. There is react-router-dom added with example configuration. React-icons were added as an icon pack.
+## About
 
-View on [Github Pages](https://jagtym.github.io/template-react-project/)
+View on [Github Pages](https://giepetetrzy.github.io/FrontendReact/)
 
 ## Features
 
