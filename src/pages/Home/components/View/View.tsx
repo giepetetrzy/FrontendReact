@@ -5,7 +5,7 @@ import Rollup from './components/Rollup'
 import Switch from '../../../../components/Switch'
 
 const View: React.FC = () => {
-  const [showVisualisationView, setShowVisualisationView] = useState<boolean>(true)
+  const [showVisualisationView, setShowVisualisationView] = useState<boolean>(false)
   const [isExpanded, setIsExpanded] = useState<boolean>(false)
 
   const toggleVisualisationView = () => {

@@ -17,3 +17,31 @@
   font-family: 'Inter';
   font-style: normal;
 }
+@layer components{
+
+
+.scrollbarStyling::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+.scrollbarStyling::-webkit-scrollbar-track {
+    background: #DEDEDE;
+    border: 3px solid   #FCFCFC;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+.scrollbarStyling::-webkit-scrollbar-thumb {
+    background: #C1403F;
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+.scrollbarStyling::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
+
+
+

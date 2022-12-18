@@ -8,7 +8,7 @@ interface Props {
 }
 
 const Switch: React.FC<Props> = ({ onToggle }: Props) => {
-  const [toggle, setToggle] = useState(false)
+  const [toggle, setToggle] = useState(true)
   const modifyToggle = (newToggle: boolean) => {
     if (newToggle === toggle) {
       return

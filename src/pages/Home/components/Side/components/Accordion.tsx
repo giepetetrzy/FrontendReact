@@ -14,6 +14,10 @@ const Accordion = () => {
     { name: 'Gwiazdolit kosmiczny', img: 1 },
     { name: 'Żółtolit Watykański', img: 2 },
     { name: 'Zielonium 2137', img: 3 },
+    { name: 'Marmur dolce', img: 4 },
+    { name: 'Gwiazdolit kosmiczny', img: 5 },
+    { name: 'Żółtolit Watykański', img: 6 },
+    { name: 'Zielonium 2137', img: 7 },
   ]
 
   const categories = [
@@ -40,10 +44,10 @@ const Accordion = () => {
   ]
 
   return (
-    <div className="h-[500px]">
+    <div className="max-h-[70%] pb-2 overflow-hidden">
       {categories.map((category, index) => (
         <div
-          className="bg-secondary rounded-2xl py-3 px-5 mb-3 flex flex-col flex-1"
+          className="bg-secondary my-auto rounded-2xl py-3 pr-2 px-5 mb-3 flex flex-col flex-1"
           key={category.name}
         >
           <Category
@@ -51,7 +55,13 @@ const Accordion = () => {
             name={category.name}
             clickAction={() => handleCategoryClick(index)}
           />
-          {index === activeCategory && <MaterialsChoice items={category.items} />}
+          <div
+            className={`transition-all duration-200     overflow-y-hidden ${
+              index === activeCategory ? ' max-h-[20rem] ease-in' : ' max-h-[0rem] ease-out'
+            } `}
+          >
+            <MaterialsChoice items={category.items} />
+          </div>
         </div>
       ))}
     </div>
