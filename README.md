@@ -15,8 +15,6 @@ Zapraszamy do zapoznania się z naszą prezentacją w pliku JEST MIEJSCE.pdf, gd
  <img src="http://img.youtube.com/vi/fAzWqv8Wep8/mqdefault.jpg" alt="Zobacz demo" width="240" height="180" border="10" />
 </a>
 
-View on [Github Pages](https://giepetetrzy.github.io/FrontendReact/
-
 ## Features
 
 ### React
