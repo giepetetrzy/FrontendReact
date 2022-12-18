@@ -11,13 +11,13 @@ const Accordion = ({ counter }: { counter: () => void }) => {
 
   const fakeItems = [
     { name: 'Marmur dolce', img: 0 },
-    { name: 'Gwiazdolit kosmiczny', img: 1 },
-    { name: 'Żółtolit Watykański', img: 2 },
-    { name: 'Zielonium 2137', img: 3 },
+    { name: 'Terrazzo marrone', img: 1 },
+    { name: 'Żółtolit meblowy', img: 2 },
+    { name: 'Zielonium uniwersalne', img: 3 },
     { name: 'Marmur dolce', img: 4 },
-    { name: 'Gwiazdolit kosmiczny', img: 5 },
-    { name: 'Żółtolit Watykański', img: 6 },
-    { name: 'Zielonium 2137', img: 7 },
+    { name: 'Terrazzo marrone', img: 5 },
+    { name: 'Żółtolit meblowy', img: 6 },
+    { name: 'Zielonium uniwersalne', img: 7 },
   ]
 
   const categories = [
