@@ -1,14 +1,76 @@
 {
+  "src/assets/images/logo.svg": {
+    "file": "assets/logo-28621e72.svg",
+    "src": "src/assets/images/logo.svg"
+  },
+  "src/assets/images/mockmoodboard.jpg": {
+    "file": "assets/mockmoodboard-da44419a.jpg",
+    "src": "src/assets/images/mockmoodboard.jpg"
+  },
+  "src/assets/images/wersja2.png": {
+    "file": "assets/wersja2-8be079c7.png",
+    "src": "src/assets/images/wersja2.png"
+  },
+  "src/assets/images/wersja4.png": {
+    "file": "assets/wersja4-79ccbd67.png",
+    "src": "src/assets/images/wersja4.png"
+  },
+  "src/assets/images/wersja3.png": {
+    "file": "assets/wersja3-479efc31.png",
+    "src": "src/assets/images/wersja3.png"
+  },
+  "src/assets/images/mocktemplate.png": {
+    "file": "assets/mocktemplate-b7c9ddbc.png",
+    "src": "src/assets/images/mocktemplate.png"
+  },
+  "src/assets/images/1.jpg": {
+    "file": "assets/1-223a82a1.jpg",
+    "src": "src/assets/images/1.jpg"
+  },
+  "src/assets/images/2.jpg": {
+    "file": "assets/2-7462d76a.jpg",
+    "src": "src/assets/images/2.jpg"
+  },
+  "src/assets/images/3.jpg": {
+    "file": "assets/3-461861e1.jpg",
+    "src": "src/assets/images/3.jpg"
+  },
+  "src/assets/images/4.jpg": {
+    "file": "assets/4-9ca84c08.jpg",
+    "src": "src/assets/images/4.jpg"
+  },
+  "src/assets/images/czekolada.jpg": {
+    "file": "assets/czekolada-1490e524.jpg",
+    "src": "src/assets/images/czekolada.jpg"
+  },
+  "src/assets/images/marmur.jpg": {
+    "file": "assets/marmur-3e96a8ae.jpg",
+    "src": "src/assets/images/marmur.jpg"
+  },
   "index.css": {
-    "file": "assets/index-f1a4c924.css",
+    "file": "assets/index-3ec2babc.css",
     "src": "index.css"
   },
   "index.html": {
-    "file": "assets/index-808e19b2.js",
+    "file": "assets/index-6bf94e3c.js",
     "src": "index.html",
     "isEntry": true,
     "css": [
-      "assets/index-f1a4c924.css"
+      "assets/index-3ec2babc.css"
+    ],
+    "assets": [
+      "assets/czekolada-1490e524.jpg",
+      "assets/marmur-3e96a8ae.jpg",
+      "assets/mockmoodboard-da44419a.jpg",
+      "assets/wersja2-8be079c7.png",
+      "assets/wersja3-479efc31.png",
+      "assets/wersja4-79ccbd67.png",
+      "assets/mocktemplate-b7c9ddbc.png",
+      "assets/1-223a82a1.jpg",
+      "assets/2-7462d76a.jpg",
+      "assets/3-461861e1.jpg",
+      "assets/4-9ca84c08.jpg",
+      "assets/logo-28621e72.svg"
     ]
   }
 }
