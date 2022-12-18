@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Category from './Category'
 import MaterialsChoice from './MaterialsChoice'
 
-const Accordion = () => {
+const Accordion = ({ counter }: { counter: () => void }) => {
   const [activeCategory, setActiveCategory] = useState(null)
 
   const handleCategoryClick = (index: any) => {
@@ -60,9 +60,8 @@ const Accordion = () => {
               index === activeCategory ? ' max-h-[20rem] ease-in' : ' max-h-[0rem] ease-out'
             } `}
           >
-            <MaterialsChoice items={category.items} />
+            <MaterialsChoice counter={counter} items={category.items} />
           </div>
-        </div>
       ))}
     </div>
   )
