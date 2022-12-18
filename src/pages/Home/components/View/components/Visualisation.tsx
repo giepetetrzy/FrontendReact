@@ -1,16 +1,10 @@
 import React from 'react'
 
-import board1 from '../../../../../assets/images/1.jpg'
-import board2 from '../../../../../assets/images/2.jpg'
-import board3 from '../../../../../assets/images/3.jpg'
-import board4 from '../../../../../assets/images/4.jpg'
-
 interface Props {
   show: boolean
 }
 
 const Visualisation: React.FC<Props> = ({ show }: Props) => {
-  const fakeBoards = [board1, board2, board3, board4]
   let className =
     'transition-opacity ease-in-out absolute h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'
   if (show) {
