@@ -3,7 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .hide-scroll-bar {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -16,4 +15,27 @@
 * {
   font-family: 'Inter';
   font-style: normal;
+}
+@layer components {
+  .scrollbarStyling::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  .scrollbarStyling::-webkit-scrollbar-track {
+    background: #dedede;
+    border: 3px solid #fcfcfc;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  .scrollbarStyling::-webkit-scrollbar-thumb {
+    background: #c1403f;
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  .scrollbarStyling::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 }
