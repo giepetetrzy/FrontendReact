@@ -1,7 +1,12 @@
 import React, { useState } from 'react'
+import MockTemplate from '../../../../../assets/images/mocktemplate.png'
 import Arrow from '../../../../../components/Arrow'
 import RollupCarousel from './RollupCarousel'
-import MockTemplate from '../../../../../assets/images/mocktemplate.png'
+
+import board1 from '../../../../../assets/images/1.jpg'
+import board2 from '../../../../../assets/images/2.jpg'
+import board3 from '../../../../../assets/images/3.jpg'
+import board4 from '../../../../../assets/images/4.jpg'
 
 interface Props {
   // boards?: string[]
@@ -13,12 +18,7 @@ interface Props {
 
 const Rollup: React.FC<Props> = ({ setExpanded, isVisualisation }: Props) => {
   const [expand, setExpand] = useState<boolean>(false)
-  const boardsURLs = [
-    'https://i.pinimg.com/originals/b1/1b/36/b11b366b9ba2cd07e3f7c98187acdf48.jpg',
-    'https://i.pinimg.com/originals/b1/1b/36/b11b366b9ba2cd07e3f7c98187acdf48.jpg',
-    'https://i.pinimg.com/originals/b1/1b/36/b11b366b9ba2cd07e3f7c98187acdf48.jpg',
-    'https://i.pinimg.com/originals/b1/1b/36/b11b366b9ba2cd07e3f7c98187acdf48.jpg',
-  ]
+  const fakeBoards = [board1, board2, board3, board4]
 
   const templatesURLs = [MockTemplate, MockTemplate, MockTemplate]
   const toggleExpand = () => {
@@ -44,7 +44,7 @@ const Rollup: React.FC<Props> = ({ setExpanded, isVisualisation }: Props) => {
               isVisualisation ? 'hidden ' : ''
             }content flex flex-row flex-nowrap overflow-y-clip`}
           >
-            <RollupCarousel tiles={boardsURLs} />
+            <RollupCarousel tiles={fakeBoards} />
           </div>
           <div
             className={`${
