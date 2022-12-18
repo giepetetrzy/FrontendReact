@@ -19,9 +19,9 @@ const Home = () => {
 
   return (
     <div className="flex flex-row justify-start w-screen">
-    <div className="logo absolute w-20 aspect-video  left-[60px] top-10 z-20 ">
-      <img src={LogoUrl} alt="" srcSet="" />
-    </div>
+      <div className="logo absolute w-20 aspect-video  left-[60px] top-10 z-20 ">
+        <img src={LogoUrl} alt="" srcSet="" />
+      </div>
       <ImgContext.Provider value={counter}>
         <Side counter={increaseCounter} />
         <View />

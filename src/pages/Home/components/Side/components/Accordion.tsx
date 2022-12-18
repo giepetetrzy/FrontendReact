@@ -56,12 +56,13 @@ const Accordion = ({ counter }: { counter: () => void }) => {
             clickAction={() => handleCategoryClick(index)}
           />
           <div
-            className={`transition-all duration-200     overflow-y-hidden ${
+            className={`transition-all duration-200 overflow-y-hidden ${
               index === activeCategory ? ' max-h-[20rem] ease-in' : ' max-h-[0rem] ease-out'
             } `}
           >
             <MaterialsChoice counter={counter} items={category.items} />
           </div>
+        </div>
       ))}
     </div>
   )
