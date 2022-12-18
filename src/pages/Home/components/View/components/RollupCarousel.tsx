@@ -28,7 +28,7 @@ const RollupCarousel: React.FC<Props> = ({ tiles }: Props) => {
       <div className="mx-auto container px-4  w-full">
         <div
           id="scrollContainer"
-          className="flex py-2 flex-no-wrap overflow-x-scroll hide-scroll-bar scrolling-touch items-start mx-20 my-10"
+          className="flex py-2 flex-no-wrap overflow-x-scroll hide-scroll-bar scrolling-touch items-start mx-20 my-6"
         >
           {generateBoards()}
         </div>
