@@ -2,14 +2,15 @@ import Item from './Item'
 
 interface Props {
   items: any
+  counter: () => void
 }
 const MaterialsChoice = (props: Props) => {
-  const { items } = props
+  const { items, counter } = props
   return (
     <ul>
       {items.map((item: any) => (
         <li key={item.name}>
-          <Item name={item.name} img={item.img} />
+          <Item counter={counter} name={item.name} img={item.img} />
         </li>
       ))}
     </ul>

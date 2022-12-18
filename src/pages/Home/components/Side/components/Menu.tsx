@@ -1,11 +1,11 @@
 import Accordion from './Accordion'
 
-const Menu = () => (
+const Menu = ({ counter }: { counter: () => void }) => (
   <div className="flex-1 flex-col">
     <h1 className="font-medium text-4xl leading-[54px] text-accent mb-6 flex flex-col">
       Projekt salonu
     </h1>
-    <Accordion />
+    <Accordion counter={counter} />
   </div>
 )
 
