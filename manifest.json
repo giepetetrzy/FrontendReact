@@ -23,13 +23,13 @@
     "file": "assets/1-223a82a1.jpg",
     "src": "src/assets/images/1.jpg"
   },
-  "src/assets/images/3.jpg": {
-    "file": "assets/3-461861e1.jpg",
-    "src": "src/assets/images/3.jpg"
-  },
   "src/assets/images/2.jpg": {
     "file": "assets/2-7462d76a.jpg",
     "src": "src/assets/images/2.jpg"
+  },
+  "src/assets/images/3.jpg": {
+    "file": "assets/3-461861e1.jpg",
+    "src": "src/assets/images/3.jpg"
   },
   "src/assets/images/4.jpg": {
     "file": "assets/4-9ca84c08.jpg",
@@ -39,13 +39,13 @@
     "file": "assets/wersja3-479efc31.png",
     "src": "src/assets/images/wersja3.png"
   },
-  "src/assets/images/czekolada.jpg": {
-    "file": "assets/czekolada-1490e524.jpg",
-    "src": "src/assets/images/czekolada.jpg"
-  },
   "src/assets/images/marmur.jpg": {
     "file": "assets/marmur-3e96a8ae.jpg",
     "src": "src/assets/images/marmur.jpg"
+  },
+  "src/assets/images/czekolada.jpg": {
+    "file": "assets/czekolada-1490e524.jpg",
+    "src": "src/assets/images/czekolada.jpg"
   },
   "index.css": {
     "file": "assets/index-3ec2babc.css",
