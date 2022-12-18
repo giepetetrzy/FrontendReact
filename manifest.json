@@ -19,13 +19,13 @@
     "file": "assets/mocktemplate-b7c9ddbc.png",
     "src": "src/assets/images/mocktemplate.png"
   },
-  "src/assets/images/2.jpg": {
-    "file": "assets/2-7462d76a.jpg",
-    "src": "src/assets/images/2.jpg"
-  },
   "src/assets/images/1.jpg": {
     "file": "assets/1-223a82a1.jpg",
     "src": "src/assets/images/1.jpg"
+  },
+  "src/assets/images/2.jpg": {
+    "file": "assets/2-7462d76a.jpg",
+    "src": "src/assets/images/2.jpg"
   },
   "src/assets/images/3.jpg": {
     "file": "assets/3-461861e1.jpg",
